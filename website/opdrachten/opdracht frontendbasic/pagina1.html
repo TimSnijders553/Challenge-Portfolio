@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        body{
+          background-color: lightgray;
+        }
+        #Link{
+         background-color: darkgray;
+         color: blue;
+          
+        }
+        .Front{
+          color: black;
+        }
+        .info{
+          background-color: darkgray;
+          border: 2px solid black;
+        }
+      </style>
+        <title>Mijn webpagina</title>
+    </head>
+    <body>
+      <div class="Front">
+      <h1>Welkom op mijn pagina.</h1>
+      </div>
+      
+      <img src="snijders.png" width="500" height="600">
+      <div class="info">
+      <h1>Tim Snijders</h1>
+      <p>18 Jaar, Amstelveen</p>
+
+      <h4>Over mij</h4>
+      <p>Ik ben Tim en zit in mijn eerstje jaar van de studie Software Developer. Ik game<br> 
+        voornamelijk in mijn vrije tijd, maar ik ben ook bezig met sport. Ik ben alles nog <br>
+      aan het leren, maar ik ben erg gemotiveerd en ik vind het erg leuk.</p>
+      
+     
+      <a id="Link" href="pagina2.html">Mijn visie over 5 jaar.</a>
+      </div> 
+
+      
+      <script>
+        let koptekst = document.querySelector("h1");
+        alert(koptekst.innerHTML)
+      </script>
+    </body>
+    </html>
