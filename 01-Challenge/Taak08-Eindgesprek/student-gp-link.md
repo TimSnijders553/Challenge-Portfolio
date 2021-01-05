@@ -1,7 +1,7 @@
 # Link naar je Github Pages
 
-Student : `studentnaam`
+Student : `Tim Snijders`
 
-Klas    : `klascode`
+Klas    : `0D`
 
-Link    : [github_username.github.io](github_username.github.io)
+Link    : [github_username.github.io](github_TimSnijders553.github.io)
