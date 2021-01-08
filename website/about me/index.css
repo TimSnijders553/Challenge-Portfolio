@@ -48,7 +48,7 @@ body {
   
   div.content {
     margin-left: 200px;
-    padding-top: 90px;
+    padding: 90px 20px 20px 20px;
     height: 800px;
   }
 

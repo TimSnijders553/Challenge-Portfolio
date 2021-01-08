@@ -4,7 +4,7 @@ var bezoeker = {
 };
 if (bezoeker.leeftijd <= 18) {
     document.body.style.backgroundColor = "red";
-} else if (bezoeker.leeftijd > 18) {
+} else {
     document.body.style.backgroundColor = "green";
 }
 
